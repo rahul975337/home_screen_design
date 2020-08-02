@@ -1,10 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:ui_design2/components/bottomsheet.dart';
-import 'package:ui_design2/components/mainbar.dart';
+import 'package:ui_design2/components/icon_for_recents.dart';
 import 'package:ui_design2/components/recents.dart';
-import 'package:ui_design2/components/sidebar.dart';
-import 'package:animations/animations.dart';
 import 'package:ui_design2/components/widgets.dart';
 import 'package:ui_design2/constants.dart';
 
@@ -28,77 +27,68 @@ class MyApp extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: Text(
-                      'citoto',
-                      style: TextStyle(
-                          color: kAccentColour,
-                          fontSize: 25.0,
-                          fontWeight: FontWeight.w800),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: RichText(
-                      text: TextSpan(
-                        text: 'Hello, ',
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          color: Colors.white,
-                          fontSize: 30.0,
-                        ),
-                        children: <TextSpan>[
-                          TextSpan(
-                            text: '\n',
-                          ),
-                          TextSpan(
-                            text: '  James Solomon',
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 30.0),
-                          ),
-                        ],
+                  Stack(
+                    children: [
+                      Container(
+                        width: 60,
+                        height: 160,
+                        color: kSecondaryBackgroundColor,
                       ),
-                    ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 35, top: 10),
+                        child: RichText(
+                          text: TextSpan(
+                            text: 'citoto',
+                            style: TextStyle(
+                                color: kAccentColour,
+                                fontSize: 28.0,
+                                fontWeight: FontWeight.bold),
+                            children: <TextSpan>[
+                              TextSpan(
+                                text: '\n',
+                              ),
+                              TextSpan(
+                                text: '\n',
+                              ),
+                              TextSpan(
+                                text: 'Hello, ',
+                                style: TextStyle(
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w400,
+                                  color: Colors.white,
+                                  fontSize: 30.0,
+                                ),
+                              ),
+                              TextSpan(
+                                text: '\n',
+                              ),
+                              TextSpan(
+                                text: '   James Solomon',
+                                style: TextStyle(
+                                    fontStyle: FontStyle.italic,
+                                    fontWeight: FontWeight.w400,
+                                    color: Colors.white,
+                                    fontSize: 30.0),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Widgets(),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Recents(),
-                  ),
+                  Widgets(),
+                  Recents(),
                   Container(),
                 ],
               ),
               Bottom(),
-//              DraggableScrollableSheet(
-//                initialChildSize: 0.3,
-//                builder: (context, controller) {
-//                  return Padding(
-//                    padding: const EdgeInsets.all(8.0),
-//                    child: Container(
-//                      child: ListView.builder(
-//                        itemCount: 100,
-//                        controller: controller,
-//                        itemBuilder: (BuildContext context, index) {
-//                          return ListTile(
-//                            title: Text('Item $index'),
-//                          );
-//                        },
-//                      ),
-//                      decoration: BoxDecoration(
-//                        color: kSecondaryBackgroundColor,
-//                        borderRadius: BorderRadius.only(
-//                          topLeft: Radius.circular(20),
-//                          topRight: Radius.circular(20),
-//                        ),
-//                      ),
-//                    ),
-//                  );
-//                },
-//              )
+              Container(
+                margin: EdgeInsets.only(top: 650),
+                child: RecentsIcon(
+                  icon: Feather.shuffle,
+                  left: 40,
+                ),
+              ),
             ],
           ),
         ),
