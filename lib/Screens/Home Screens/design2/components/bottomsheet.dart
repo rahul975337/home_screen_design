@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ui_design2/components/roundbutton.dart';
-import 'package:ui_design2/constants.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
+
+import '../colors.dart';
 import 'notifications.dart';
 
 class Bottom extends StatefulWidget {
@@ -18,6 +18,7 @@ class _BottomState extends State<Bottom> {
   var _startHeight;
   var _startDy;
   bool bottomStatus = false;
+
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;

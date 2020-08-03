@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../colors.dart';
 
 class RecentsIcon extends StatelessWidget {
   final IconData icon;

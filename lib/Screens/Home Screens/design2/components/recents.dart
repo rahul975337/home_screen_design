@@ -1,10 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:ui_design2/components/roundbutton.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import '../constants.dart';
-import 'icon_for_recents.dart';
+
+import '../buttons and icons/icon_for_recents.dart';
+import '../colors.dart';
 
 class Recents extends StatelessWidget {
   @override
