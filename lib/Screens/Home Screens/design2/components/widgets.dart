@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:ui_design2/Screens/Home%20Screens/design2/buttons%20and%20icons/roundbutton.dart';
+import 'package:ui_design2/Screens/Mingle%20Screen/design3/design3.dart';
 
 import '../colors.dart';
 
@@ -57,7 +58,16 @@ class Widgets extends StatelessWidget {
                       crossAxisCount: 4,
                       children: <Widget>[
                         RoundIconButton(icon: Feather.rss),
-                        RoundIconButton(icon: Feather.message_square),
+                        RoundIconButton(
+                          icon: Feather.message_square,
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Design3()),
+                            );
+                          },
+                        ),
                         RoundIconButton(icon: Feather.bell),
                         RoundIconButton(icon: Feather.book_open),
                         RoundIconButton(icon: Feather.user),

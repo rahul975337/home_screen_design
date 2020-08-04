@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_design2/Screens/Mingle%20Screen/design3/constants.dart';
 
 class Primary extends StatelessWidget {
   @override
@@ -16,7 +17,7 @@ class Primary extends StatelessWidget {
         children: [
           Container(
             margin: EdgeInsets.only(left: 70, top: 190),
-            height: 135,
+            height: 130,
             child: GridView.count(
               crossAxisCount: 4,
               mainAxisSpacing: 22,
@@ -30,8 +31,7 @@ class Primary extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -39,8 +39,7 @@ class Primary extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -48,8 +47,7 @@ class Primary extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -57,8 +55,7 @@ class Primary extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -66,8 +63,7 @@ class Primary extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -75,8 +71,7 @@ class Primary extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
               ],

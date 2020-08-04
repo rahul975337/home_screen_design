@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_design2/Screens/Mingle%20Screen/design3/constants.dart';
 
 class Spam extends StatelessWidget {
   @override
@@ -30,8 +31,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -39,8 +39,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -48,8 +47,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -57,8 +55,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -66,8 +63,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -75,8 +71,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -84,8 +79,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -93,8 +87,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -102,8 +95,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -111,8 +103,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -120,8 +111,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
                 Container(
@@ -129,8 +119,7 @@ class Spam extends StatelessWidget {
                   width: 50,
                   child: CircleAvatar(
                     backgroundColor: Colors.white,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
+                    backgroundImage: NetworkImage(kImageUrl),
                   ),
                 ),
               ],

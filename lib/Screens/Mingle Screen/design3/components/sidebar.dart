@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../colors.dart';
+import '../constants.dart';
 
 class SideBar extends StatelessWidget {
   @override
