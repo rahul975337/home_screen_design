@@ -116,7 +116,6 @@ class Design3 extends StatelessWidget {
                     Spam(),
                   ],
                 ),
-                Container(),
               ],
             ),
             Container(
@@ -136,6 +135,17 @@ class Design3 extends StatelessWidget {
               child: RoundButton(
                 icon: Feather.shuffle,
                 left: 40,
+              ),
+            ),
+            Container(
+              alignment: Alignment.bottomRight,
+              child: FloatingActionButton(
+                onPressed: null,
+                backgroundColor: kSecondaryBackgroundColor,
+                child: Icon(
+                  Icons.linear_scale,
+                  color: kAccentColour,
+                ),
               ),
             ),
           ],
