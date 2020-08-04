@@ -12,9 +12,7 @@ class RoundIconButton extends StatelessWidget {
     return Container(
       child: FlatButton(
         shape: CircleBorder(),
-        onPressed: () {
-          print('hey');
-        },
+        onPressed: onPressed,
         child: CircleAvatar(
           radius: 20,
           backgroundColor: kSecondaryBackgroundColor,

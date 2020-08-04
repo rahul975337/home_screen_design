@@ -121,9 +121,14 @@ class Design3 extends StatelessWidget {
             ),
             Container(
               margin: EdgeInsets.only(top: 40),
-              child: RoundButton(
-                icon: Icons.arrow_back_ios,
-                left: 40,
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.pop(context);
+                },
+                child: RoundButton(
+                  icon: Icons.arrow_back_ios,
+                  left: 40,
+                ),
               ),
             ),
             Container(
